@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from '../assets/bg.jpg';
+import Products from './Products';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                         </div>
                     </div>
             </div>
+            <Products />
         </div>
     )
 }
